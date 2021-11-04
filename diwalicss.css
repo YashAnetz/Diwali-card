@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+
+.first {
+  z-index: 1;
+  background-color: rgba(87, 87, 87, 0.5);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: absolute;
+  width: 90vw;
+  height: fit-content;
+  left: 0;
+  top: 90rem;
+  padding: 10px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+h1 {
+  color: rgb(238, 237, 237);
+  border-bottom: solid 2px white;
+  padding: 10px;
+  text-align: center;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+h2 {
+  color: white;
+  border-bottom: solid 2px white;
+  padding: 10px;
+  text-align: center;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.grid1 {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.gridel {
+  margin: 15px;
+  width: 20vw;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: 60vh;
+  border-radius: 20px;
+}
+
+.gridel:hover {
+  transform: scale(1.05);
+}
+
+.second {
+  z-index: 1;
+  background-color: rgba(87, 87, 87, 0.5);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: absolute;
+  width: 90vw;
+  height: fit-content;
+  left: 0;
+  animation-name: secondanime;
+  animation-duration: 0.5s;
+
+  top: 0rem;
+
+  padding: 10px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.gridel2 {
+  margin: 15px;
+  width: 17vw;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: 15vh;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+@keyframes secondanime {
+  0% {
+    top: 70rem;
+  }
+  100% {
+    top: 0rem;
+  }
+}
+
+.gridel2:hover {
+  transform: scale(1.05);
+}
+
+.third {
+  z-index: 4;
+  background-color: rgba(87, 87, 87, 0.5);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: absolute;
+  width: 90vw;
+  height: fit-content;
+  left: 0;
+  animation-name: secondanime;
+  animation-duration: 0.5s;
+
+  top: -20rem;
+
+  padding: 10px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.forth {
+  z-index: 4;
+  background-color: rgba(87, 87, 87, 0.5);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: absolute;
+  width: 90vw;
+  height: fit-content;
+  left: 0;
+  animation-name: secondanime;
+  animation-duration: 0.5s;
+
+  top: 20rem;
+
+  padding: 10px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+input {
+  position: relative;
+  left: 35%;
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 3px black solid;
+  color: white;
+  background: none;
+}
+
+.final {
+  margin: 15px;
+  width: 30vw;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: 90vh;
+  left: 33%;
+  border-radius: 20px;
+}
+
+button {
+  position: relative;
+  width: 90vw;
+  height: 50px;
+  border-radius: 20px;
+  margin-top: 10px;
+  background-color: rgba(173, 124, 124, 0.9);
+}
+
+.text {
+  position: relative;
+  width: 400px;
+  top: -20em;
+  left: 1%;
+  filter: drop-shadow(10px 10px 10px white);
+}
+
+.from {
+  position: relative;
+  top: -90px;
+  border: none;
+}
+
+h4 {
+  position: sticky;
+  font-family: "Lexend Deca", sans-serif;
+  color: aliceblue;
+  font-size: 20px;
+  width: 400px;
+
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+}
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .grid1 {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .gridel {
+    margin: 20px;
+    width: 80vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 60vh;
+    border-radius: 20px;
+  }
+
+  .first {
+    z-index: 1;
+    background-color: rgba(87, 87, 87, 0.5);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: absolute;
+    width: 90vw;
+    height: fit-content;
+    left: 0;
+    top: 390rem;
+    padding: 10px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  .gridel2 {
+    margin: 20px;
+    width: 75vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 30vh;
+    border-radius: 20px;
+  }
+
+  .second {
+    z-index: 1;
+    background-color: rgba(87, 87, 87, 0.5);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: absolute;
+    width: 90vw;
+    height: fit-content;
+    animation-name: secondanime;
+    animation-duration: 0.5s;
+    left: 0;
+    top: 160rem;
+    padding: 10px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  .third {
+    z-index: 1;
+    background-color: rgba(87, 87, 87, 0.5);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: absolute;
+    width: 90vw;
+    height: fit-content;
+    animation-name: secondanime;
+    animation-duration: 0.5s;
+    left: 0;
+    top: -20rem;
+    padding: 10px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  .forth {
+    z-index: 1;
+    background-color: rgba(87, 87, 87, 0.5);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: absolute;
+    width: 90vw;
+    height: fit-content;
+    animation-name: secondanime;
+    animation-duration: 0.5s;
+    left: 0;
+    top: 10rem;
+    padding: 10px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  @keyframes secondanime {
+    0% {
+      top: 300rem;
+    }
+    100% {
+      top: 160rem;
+    }
+  }
+  input {
+    position: relative;
+    left: 0;
+    width: 80vw;
+    margin: 20px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 3px black solid;
+    color: white;
+    background: none;
+  }
+
+  button {
+    position: relative;
+    width: 90vw;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: rgba(173, 124, 124, 0.9);
+  }
+
+  .final {
+    margin: 15px;
+    width: 80vw;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 70vh;
+    left: 0;
+    border-radius: 20px;
+  }
+
+  .text {
+    position: absolute;
+    width: 300px;
+    top: 15rem;
+    left: 10%;
+    filter: drop-shadow(10px 10px 10px white);
+  }
+
+  .from {
+    position: absolute;
+    top: 580px;
+    left: 9%;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+  }
+
+  h4 {
+    position: sticky;
+    font-family: "Lexend Deca", sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    width: 380px;
+
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+  }
+}
